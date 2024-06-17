@@ -1,15 +1,24 @@
-import MainContainer from "./components/main-container/MainContainer";
-import Home from "./pages/Home";
+
+
+import { BrowserRouter } from "react-router-dom";
 import Router from "./router/Router";
+
 import { GlobalStyles } from "./styles/GlobalStyles";
+
 
 const App = () => {
 	return (
 		<>
-		<GlobalStyles/>
-		<MainContainer/>
-		<Home/>
-		<Router/>
+		<BrowserRouter>
+		
+			<GlobalStyles/>
+			
+			<Router/>
+
+		</BrowserRouter>
+		
+		
+		
 		</>
 	)
 	

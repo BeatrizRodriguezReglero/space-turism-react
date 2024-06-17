@@ -14,9 +14,9 @@ export const GlobalStyles = createGlobalStyle`
   
   body{
     margin: 0;
-    color: black;
+    color: #D0D6F9;
     background-color: #ebebed;
-    font-family: sans-serif;
+    font-family: "Barlow", sans-serif;
   }
 
   a{
@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
   p{
     margin: 0;
   }
-  h2{
+  h2,h1{
     margin: 0;
   }
 `;

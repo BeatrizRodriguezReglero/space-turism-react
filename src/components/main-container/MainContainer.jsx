@@ -1,16 +1,22 @@
+
+
+import { StyledContainer, StyledContainerCircle, StyledSubtitle, StyledText, StyledTextCircle, StyledTitle } from "./main-container.styles"
+
 const MainContainer =()=>{
     return(
         <>  
-        <div>
-             <img src="" alt="" />
-            {/* menu */}
+        
+        <StyledContainer>
+        
             <div>
-                <h2>SO, YOU WANT TO TRAVEL TO</h2>
-                <h1>SPACE</h1>
-                <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+                <StyledSubtitle>SO, YOU WANT TO TRAVEL TO</StyledSubtitle>
+                <StyledTitle>SPACE</StyledTitle>
+                <StyledText>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</StyledText>
             </div>
-            <img src="" alt="" />
-        </div>
+            <StyledContainerCircle>
+                <StyledTextCircle>EXPLORE</StyledTextCircle>
+            </StyledContainerCircle>
+        </StyledContainer>
            
 
         </>
